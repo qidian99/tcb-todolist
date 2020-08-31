@@ -1,0 +1,15 @@
+/* miniprogram/pages/todolist.wxss */
+page {
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.todo-list {
+  box-shadow: 1px 1px 2px black;
+}
+
+.todo-item {
+  padding: 6px;
+}

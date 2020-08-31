@@ -1,0 +1,13 @@
+<!--miniprogram/pages/todolist.wxml-->
+
+<button class="list-item" bindtap="createTodo">
+  <text>新增代办</text>
+</button>
+
+
+<view class="todo-list">
+  <view class="todo-item" wx:key="unique" wx:for-item="todo" wx:for="{{todolist}}" wx:for-index="index">
+  {{ index }} : {{ todo.title }}, {{ todo.body }}, {{ todo.date }}
+  </view>
+</view>
+
