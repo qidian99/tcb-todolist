@@ -16,7 +16,15 @@
   </view>
 
 
-    <!-- Todo list -->
+  <!-- Form API -->
+  <view class="uploader">
+    <navigator url="../formAPI/formAPI" open-type="navigate" class="uploader-text">
+      <text>表单API</text>
+    </navigator>
+  </view>
+
+
+  <!-- Todo list -->
   <view class="uploader">
     <navigator url="../todolist/todolist" open-type="navigate" class="uploader-text">
       <text>待办事项</text>

@@ -1,0 +1,20 @@
+<view class="inline-view">
+  <text>姓名: </text>
+  <input class="input" name="name" />
+</view>
+<view class="inline-view">
+  <text>年龄: </text>
+  <input type="number" class="input" name="year" />
+</view>
+<view class="inline-view">
+  <text>学生:</text>
+  <switch name="student" />
+</view>
+<!-- <checkbox-group> 
+  <label class="weui-cell weui-check__label" wx:for="{{countries}}" wx:key="value">
+    <view class="weui-cell__hd">
+      <checkbox name="{{item.value}}" value="{{item.value}}" />
+    </view>
+      <view class="weui-cell__bd">{{item.name}}</view>
+  </label>
+</checkbox-group> -->

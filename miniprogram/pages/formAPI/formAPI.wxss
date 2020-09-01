@@ -1,0 +1,5 @@
+/* miniprogram/pages/formAPI/formAPI.wxss */
+
+view.section {
+  background-color: #E5E5E5;
+}

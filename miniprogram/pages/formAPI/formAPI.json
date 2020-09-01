@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "form-group": "/components/form-group/form-group",
+    "mp-dialog": "/miniprogram_npm/weui-miniprogram/dialog/dialog"
+  }
+}

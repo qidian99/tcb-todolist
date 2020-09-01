@@ -1,0 +1,23 @@
+<!--miniprogram/pages/formAPI/formAPI.wxml-->
+<view>
+  <text>
+  This is the form API demo page. 
+  </text>
+</view>
+<view class="section">
+  <!-- NOTE: rich-text API does not support view as element -->
+  <rich-text nodes="{{formGroupTitle}}"></rich-text>
+</view>
+<view>
+  <form bindsubmit="formGroupSubmit">
+    <form-group></form-group>
+    <!-- form-type用来submit或者reset表单 -->
+    <!-- 只有type是primary的时候才有背景色+白字体，其他两个选项为default和warn -->
+    <button type="primary" form-type="submit">提交姓名测试</button>
+  </form>
+</view>
+
+<!-- 还是使用NPMN引入靠谱 -->
+<!-- <mp-dialog title="test" show="{{true}}" bindbuttontap="tapDialogButton" buttons="{{[{ text: '取消' }, { text: '确认' }]}}">
+  <view>test content</view>
+</mp-dialog> -->
